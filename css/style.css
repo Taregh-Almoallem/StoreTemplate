@@ -253,7 +253,7 @@ svg {
   -o-transform: translateY(-50%);
 }
 .section-nav-mobile li {
-  font-size: 3vh;
+  font-size: 2vh;
 }
 #menu-dropdown-mobile .bi-caret-down-fill {
   transition: all 0.3s ease;
@@ -282,14 +282,14 @@ svg {
   display: block;
 }
 .menu-dropdown-mobile li {
-  font-size: 1.9vh;
+  font-size: 1.3vh;
   padding: 10px;
 }
 .menu-dropdown-mobile li:hover {
   background-color: #c3eaff;
 }
 .menu-dropdown-mobile .h6 {
-  font-size: 2.4vh;
+  font-size: 2vh;
 }
 .btn-nav-mobile svg {
   border: 2px solid #007bff;
@@ -307,6 +307,7 @@ svg {
   position: absolute;
   top: 11vh;
   left: 16vh;
+  transform: translate(-30%,0%);
   box-shadow: 0 2px 5px gray;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -390,7 +391,7 @@ svg {
     height: 40px;
   }
   .search-input {
-    font-size: 2vh;
+    font-size: 1.1vh;
   }
 }
 
@@ -532,7 +533,7 @@ svg {
   background-color: var(--bg-color-light);
 }
 .product .card span {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .product a {
   display: flex;
@@ -541,7 +542,8 @@ svg {
 }
 #product-discount {
   width: 97%;
-  height: 60vh;
+  max-height: 77vh;
+  padding: 15px 0;
   background-color: var(--bg-color);
   margin: 0 auto;
   margin-bottom: 3vh;
@@ -559,7 +561,7 @@ svg {
 }
 
 .product-discount .swiper-slide {
-  height: 56vh;
+  max-height: 70vh;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -685,7 +687,7 @@ svg {
 }
 
 #product-slide2 .swiper-slide {
-  height: 65vh;
+  max-height: 65vh;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -805,6 +807,7 @@ svg {
   -o-transition: all 0.4s ease-out;
 }
 .col-card {
+  max-height: 60vh;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -826,7 +829,8 @@ svg {
   -o-border-radius: 10px 32px 10px 32px;
 }
 .text-blog {
-  height: 22vh;
+  max-height: 22vh;
+  padding-bottom: 15px;
   text-align: justify;
   color: #8a8a8a;
   border-bottom: 1px solid #d1d1d1;
@@ -1359,7 +1363,7 @@ textarea:focus {
   justify-content: center;
 }
 .shop-store {
-  min-height: 65vh;
+  min-height: 53vh;
   max-height: 85vh;
   background-color: #fff;
   border: 1px solid rgb(223, 223, 223);

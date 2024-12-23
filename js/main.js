@@ -91,8 +91,8 @@ var swiper = new Swiper("#product-slide2 .mySwiper", {
   },
 });
 var swiper = new Swiper(".brands .mySwiper", {
+  slidesPerView: 2,
   slidesPerView: 3,
-  slidesPerView: 4,
   spaceBetween: 15,
   freeMode: true,
   speed: 3000,
@@ -103,12 +103,12 @@ var swiper = new Swiper(".brands .mySwiper", {
   },
   breakpoints: {
     800: {
-      slidesPerView: 7,
+      slidesPerView: 6,
       spaceBetween: 30,
     },
   },
   loopedSlides: 10,
-  allowTouchMove: false,
+  allowTouchMove: true,
 });
 function convertToPersianNumbers() {
   const persianNumbers = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"];

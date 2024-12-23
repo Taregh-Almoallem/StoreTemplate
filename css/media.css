@@ -18,8 +18,21 @@
     display: block;
   }
   .left-header .swiper-slide img {
-    width: 55vh;
-    height: 55vh;
+    width: 36vh;
+    height: 43vh;
+  }
+  .product-discount .present-off {
+    position: absolute;
+    width: 7vh;
+    height: 9vh;
+    top: -0.3vh;
+    right: 0.5vh;
+    background-color: var(--bg-color);
+    color: #fff;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 73%, 0 100%, 0 0);
+  }
+  .product-discount .present-off .fa-numbers {
+    font-size: 0.8rem;
   }
   .col-card .h5 {
     font-size: 0.8rem;
@@ -89,8 +102,8 @@
 
 @media (max-width: 360px) {
   .left-header .swiper-slide img {
-    width: 34vh;
-    height: 34vh;
+    width: 29vh;
+    height: 29vh;
   }
   .swiper-slide .img-header2 {
     width: 32vh;
