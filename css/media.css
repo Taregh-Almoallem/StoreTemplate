@@ -23,8 +23,8 @@
   }
   .product-discount .present-off {
     position: absolute;
-    width: 7vh;
-    height: 9vh;
+    width: 6vh;
+    height: 8vh;
     top: -0.3vh;
     right: 0.5vh;
     background-color: var(--bg-color);
@@ -32,7 +32,7 @@
     clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 73%, 0 100%, 0 0);
   }
   .product-discount .present-off .fa-numbers {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .col-card .h5 {
     font-size: 0.8rem;
@@ -206,8 +206,8 @@
 }
 @media (min-width: 360px) and (max-width: 480px) {
   .left-header .swiper-slide img {
-    width: 28vh;
-    height: 24vh;
+    width: 30vh;
+    height: 26vh;
   }
   .swiper-slide .img-header2 {
     width: 32vh;
@@ -220,7 +220,7 @@
   .right-header {
     clip-path: none;
     align-items: center;
-    height: 60vh;
+    max-height: 49vh;
     padding: 0;
   }
   .right-header .title-text {
