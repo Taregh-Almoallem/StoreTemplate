@@ -102,8 +102,8 @@
 
 @media (max-width: 360px) {
   .left-header .swiper-slide img {
-    width: 29vh;
-    height: 29vh;
+    width: 25vh;
+    height: 25vh;
   }
   .swiper-slide .img-header2 {
     width: 32vh;
@@ -206,8 +206,8 @@
 }
 @media (min-width: 360px) and (max-width: 480px) {
   .left-header .swiper-slide img {
-    width: 41vh;
-    height: 41vh;
+    width: 33vh;
+    height: 31vh;
   }
   .swiper-slide .img-header2 {
     width: 32vh;
