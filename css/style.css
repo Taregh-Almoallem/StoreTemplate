@@ -807,7 +807,7 @@ svg {
   -o-transition: all 0.4s ease-out;
 }
 .col-card {
-  max-height: 60vh;
+  max-height: 85vh;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
