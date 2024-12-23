@@ -206,8 +206,8 @@
 }
 @media (min-width: 360px) and (max-width: 480px) {
   .left-header .swiper-slide img {
-    width: 33vh;
-    height: 31vh;
+    width: 28vh;
+    height: 24vh;
   }
   .swiper-slide .img-header2 {
     width: 32vh;
