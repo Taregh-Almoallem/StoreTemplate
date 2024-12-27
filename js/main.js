@@ -44,17 +44,45 @@ document.addEventListener("click", () => {
 });
 
 var swiper = new Swiper(".header .mySwiper", {
-  effect: "fade",
+  effect: "",
   fadeEffect: {
     crossFade: true,
   },
-  speed: 2000,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "progressbar",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  speed: 1000,
   autoplay: {
-    delay: 6000,
+    delay: 3000,
     disableOnInteraction: false,
   },
   loop: true,
   allowTouchMove: false,
+});
+var swiper = new Swiper(".product .mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 10,
+  freeMode: true,
+  loop: false,
+  breakpoints: {
+    500: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    800: {
+      slidesPerView: 6,
+      spaceBetween: 20,
+    },
+    1300: {
+      slidesPerView: 8,
+      spaceBetween: 20,
+    },
+  },
 });
 var swiper = new Swiper(".product-discount .mySwiper", {
   slidesPerView: 1,

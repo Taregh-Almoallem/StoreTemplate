@@ -17,10 +17,6 @@
   .container-input {
     display: block;
   }
-  .left-header .swiper-slide img {
-    width: 36vh;
-    height: 43vh;
-  }
   .product-discount .present-off {
     position: absolute;
     width: 6vh;
@@ -33,6 +29,10 @@
   }
   .product-discount .present-off .fa-numbers {
     font-size: 0.9rem;
+  }
+  .product .card img {
+    width: 15vh;
+    height: 15vh;
   }
   .col-card .h5 {
     font-size: 0.8rem;
@@ -101,29 +101,16 @@
 /* موبایل‌های کوچک (کمتر از 576 پیکسل) */
 
 @media (max-width: 360px) {
-  .left-header .swiper-slide img {
-    width: 25vh;
-    height: 25vh;
+  #header img {
+    height: 30vh;
   }
-  .swiper-slide .img-header2 {
-    width: 32vh;
-    height: 32vh;
+  .product .card img {
+    width: 12vh;
+    height: 12vh;
   }
-  .swiper-slide .img-header1 {
-    width: 35vh;
-    height: 35vh;
-  }
-  .right-header {
-    clip-path: none;
-    align-items: center;
-    height: 60vh;
-    padding: 0;
-  }
-  .right-header .title-text {
-    font-size: 3vh;
-  }
-  .right-header .pargraph-text {
-    font-size: 1.7vh;
+  .product svg {
+    width: 50px;
+    height: 50px;
   }
   .product-discount .swiper-slide img,
   #product-slide2 .swiper-slide img {
@@ -149,10 +136,6 @@
   }
   .timer-discount button {
     font-size: 0.6rem;
-  }
-  .right-header button,
-  .product .card span {
-    font-size: 0.55rem;
   }
   #product-slide2 button {
     font-size: 0.7rem;
@@ -205,29 +188,8 @@
   font-size: 0.65rem;
 }
 @media (min-width: 360px) and (max-width: 480px) {
-  .left-header .swiper-slide img {
-    width: 30vh;
-    height: 26vh;
-  }
-  .swiper-slide .img-header2 {
-    width: 32vh;
-    height: 32vh;
-  }
-  .swiper-slide .img-header1 {
-    width: 35vh;
-    height: 35vh;
-  }
-  .right-header {
-    clip-path: none;
-    align-items: center;
-    max-height: 49vh;
-    padding: 0;
-  }
-  .right-header .title-text {
-    font-size: 3vh;
-  }
-  .right-header .pargraph-text {
-    font-size: 1.7vh;
+  #header img {
+    height: 40vh;
   }
   .product-discount .swiper-slide img,
   #product-slide2 .swiper-slide img {
@@ -253,10 +215,6 @@
   }
   .timer-discount button {
     font-size: 0.6rem;
-  }
-  .right-header button,
-  .product .card span {
-    font-size: 0.7rem;
   }
   #product-slide2 button {
     font-size: 0.7rem;
@@ -301,156 +259,118 @@
 
 /* موبایل‌های متوسط (بین 576px تا 767px) */
 @media (min-width: 480px) and (max-width: 767.98px) {
-  .swiper-slide .img-header2 {
-    width: 40vh;
+  #header img {
     height: 40vh;
   }
-  .swiper-slide .img-header1 {
-    width: 45vh;
-    height: 45vh;
-  }
-  .right-header {
-    height: 60vh;
-  }
-  .right-header .title-text {
-    font-size: 3vh;
-  }
-  .right-header .pargraph-text {
-    font-size: 1.7vh;
-  }
-  .right-header button {
-    font-size: 0.8rem;
-  }
+
   .product-discount .swiper-slide img,
   #product-slide2 .swiper-slide img {
     width: 16vh;
     height: 20vh;
-    .product-discount .swiper-slide img,
-    #product-slide2 .swiper-slide img {
-      width: 14vh;
-      height: 18vh;
-    }
-    .product-discount .swiper-slide,
-    #product-slide2 .swiper-slide {
-      font-size: 3vh;
-    }
-    .product-discount .swiper-slide .price,
-    #product-slide2 .swiper-slide .price {
-      font-size: 3.1vh;
-      margin-bottom: 3vh;
-    }
-    .timer-discount .subject {
-      font-size: 3vh;
-      text-align: center;
-    }
-    .timer-discount .countdown-card {
-      font-size: 2.1vh;
-    }
-    .timer-discount .timer {
-      font-size: 2.7vh;
-    }
-
-    table {
-      font-size: 0.7rem;
-    }
-    .picture-about-us img {
-      width: 44vh;
-      height: 44vh;
-    }
-    .picture-about-us .logo-about-us {
-      width: 51vh;
-      height: 36vh;
-    }
+  }
+  .product-discount .swiper-slide img,
+  #product-slide2 .swiper-slide img {
+    width: 14vh;
+    height: 18vh;
+  }
+  .product-discount .swiper-slide,
+  #product-slide2 .swiper-slide {
+    font-size: 3vh;
+  }
+  .product-discount .swiper-slide .price,
+  #product-slide2 .swiper-slide .price {
+    font-size: 3.1vh;
+    margin-bottom: 3vh;
+  }
+  .timer-discount .subject {
+    font-size: 3vh;
+    text-align: center;
+  }
+  .timer-discount .countdown-card {
+    font-size: 2.1vh;
+  }
+  .timer-discount .timer {
+    font-size: 2.7vh;
   }
 
-  /* تبلت‌ها و موبایل‌های بزرگ (بین 768px تا 991px) */
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    .left-header .swiper-slide img {
-      width: 46vh;
-      height: 46vh;
-    }
-    .right-header .title-text {
-      font-size: 4vh;
-    }
-    .product-discount .swiper-slide img,
-    #product-slide2 .swiper-slide img {
-      width: 18vh;
-      height: 22vh;
-    }
-    .product-discount .swiper-slide,
-    #product-slide2 .swiper-slide {
-      font-size: 2.5vh;
-    }
-    .picture-about-us img {
-      width: 61vh;
-      height: 61vh;
-    }
-    .picture-about-us .logo-about-us {
-      width: 71vh;
-      height: 53vh;
-    }
+  table {
+    font-size: 0.7rem;
   }
+  .picture-about-us img {
+    width: 44vh;
+    height: 44vh;
+  }
+  .picture-about-us .logo-about-us {
+    width: 51vh;
+    height: 36vh;
+  }
+}
 
-  /* لپ‌تاپ‌های کوچک (بین 992px تا 1199px) */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    .left-header .swiper-slide img {
-      width: 60vh;
-      height: 60vh;
-    }
-    .product-discount .swiper-slide img,
-    #product-slide2 .swiper-slide img {
-      width: 12vh;
-      height: 18vh;
-    }
-    .product-discount .swiper-slide,
-    #product-slide2t .swiper-slide {
-      font-size: 3.2vh;
-    }
-    .text-explain {
-      font-size: 0.8rem;
-    }
+/* تبلت‌ها و موبایل‌های بزرگ (بین 768px تا 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .product-discount .swiper-slide img,
+  #product-slide2 .swiper-slide img {
+    width: 18vh;
+    height: 22vh;
   }
+  .product-discount .swiper-slide,
+  #product-slide2 .swiper-slide {
+    font-size: 2.5vh;
+  }
+  .picture-about-us img {
+    width: 61vh;
+    height: 61vh;
+  }
+  .picture-about-us .logo-about-us {
+    width: 71vh;
+    height: 53vh;
+  }
+}
 
-  /* لپ‌تاپ‌ها و دسکتاپ‌های معمولی (بین 1200px تا 1399px) */
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .left-header .swiper-slide img {
-      width: 75vh;
-      height: 75vh;
-    }
-    .product .card-box {
-      width: 10%;
-    }
-    .product-discount .swiper-slide img,
-    #product-slide2 .swiper-slide img {
-      width: 16vh;
-      height: 22vh;
-    }
-    .product-discount .swiper-slide,
-    #product-slide2 .swiper-slide {
-      font-size: 3.3vh;
-    }
-    .picture-about-us img {
-      width: 40vh;
-      height: 40vh;
-    }
-    .picture-about-us .logo-about-us {
-      width: 48vh;
-      height: 35vh;
-    }
+/* لپ‌تاپ‌های کوچک (بین 992px تا 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .product-discount .swiper-slide img,
+  #product-slide2 .swiper-slide img {
+    width: 12vh;
+    height: 18vh;
   }
-  /* دسکتاپ‌های بزرگ و مانیتورهای بزرگ‌تر (1400 پیکسل به بالا) */
-  @media (min-width: 1400px) {
-    .left-header .swiper-slide img {
-      width: 78vh;
-      height: 78vh;
-    }
-    .picture-about-us img {
-      width: 40vh;
-      height: 40vh;
-    }
-    .picture-about-us .logo-about-us {
-      width: 46vh;
-      height: 35vh;
-    }
+  .product-discount .swiper-slide,
+  #product-slide2t .swiper-slide {
+    font-size: 3.2vh;
+  }
+  .text-explain {
+    font-size: 0.8rem;
+  }
+}
+
+/* لپ‌تاپ‌ها و دسکتاپ‌های معمولی (بین 1200px تا 1399px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .product-discount .swiper-slide img,
+  #product-slide2 .swiper-slide img {
+    width: 16vh;
+    height: 22vh;
+  }
+  .product-discount .swiper-slide,
+  #product-slide2 .swiper-slide {
+    font-size: 3.3vh;
+  }
+  .picture-about-us img {
+    width: 40vh;
+    height: 40vh;
+  }
+  .picture-about-us .logo-about-us {
+    width: 48vh;
+    height: 35vh;
+  }
+}
+/* دسکتاپ‌های بزرگ و مانیتورهای بزرگ‌تر (1400 پیکسل به بالا) */
+@media (min-width: 1400px) {
+  .picture-about-us img {
+    width: 40vh;
+    height: 40vh;
+  }
+  .picture-about-us .logo-about-us {
+    width: 46vh;
+    height: 35vh;
   }
 }
