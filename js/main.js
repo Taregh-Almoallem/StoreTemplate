@@ -52,17 +52,14 @@ var swiper = new Swiper(".header .mySwiper", {
     el: ".swiper-pagination",
     type: "progressbar",
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+
   speed: 1000,
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
   },
   loop: true,
-  allowTouchMove: false,
+  allowTouchMove: true,
 });
 var swiper = new Swiper(".product .mySwiper", {
   slidesPerView: 3,
