@@ -102,11 +102,11 @@
 
 @media (max-width: 360px) {
   #header img {
-    height: 25vh;
+    height: 20vh;
   }
   .product .card img {
-    width: 12vh;
-    height: 12vh;
+    width: 10vh;
+    height: 10vh;
   }
   .product svg {
     width: 50px;
