@@ -905,7 +905,7 @@ svg {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.expalin-product img {
+.expalin-product .img-product {
   width: 62vh;
   height: 63vh;
   border: 2px solid var(--color-white);
@@ -1289,7 +1289,7 @@ textarea:focus {
   background-color: #fff;
   border: 1px solid rgb(223, 223, 223);
   box-shadow: 0 0 8px var(--color-white);
-  padding: 40px 30px;
+  padding: 23px 13px;
   border-radius: 13px;
   -webkit-border-radius: 13px;
   -moz-border-radius: 13px;

@@ -102,7 +102,7 @@
 
 @media (max-width: 360px) {
   #header img {
-    height: 30vh;
+    height: 25vh;
   }
   .product .card img {
     width: 12vh;
@@ -183,13 +183,22 @@
   width: 31vh;
   height: 22vh;
 }
+.expalin-product .img-product {
+  width: 46vh;
+  height: 43vh;
+}
 .like-comments,
 .dislike-comments {
   font-size: 0.65rem;
 }
 @media (min-width: 360px) and (max-width: 480px) {
   #header img {
-    height: 40vh;
+    height: 35vh;
+  }
+
+  .product .card img {
+    width: 12vh;
+    height: 12vh;
   }
   .product-discount .swiper-slide img,
   #product-slide2 .swiper-slide img {
