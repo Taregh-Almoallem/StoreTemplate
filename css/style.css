@@ -53,7 +53,7 @@ a:hover {
 /* navbar */
 #navbar {
   width: 100%;
-  min-height: 14vh;
+  min-height: 6vh;
   max-height: 36vh;
   background-color: #fff;
   border-bottom: 1px solid var(--color-white);
@@ -203,8 +203,8 @@ svg {
   -o-transition: all 0.1s ease;
 }
 .count-store {
-  width: 3.5vh;
-  height: 3.5vh;
+  width: 23px;
+  height: 23px;
   text-align: center;
   position: absolute;
   top: -1vh;
@@ -463,7 +463,7 @@ svg {
 }
 #product-discount {
   width: 97%;
-  max-height: 77vh;
+  max-height: 100vh;
   padding: 15px 0;
   background-color: var(--bg-color);
   margin: 0 auto;
@@ -608,7 +608,7 @@ svg {
 }
 
 #product-slide2 .swiper-slide {
-  max-height: 65vh;
+  max-height: 90vh;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -728,7 +728,7 @@ svg {
   -o-transition: all 0.4s ease-out;
 }
 .col-card {
-  max-height: 85vh;
+  max-height: 130vh;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -757,7 +757,7 @@ svg {
   border-bottom: 1px solid #d1d1d1;
 }
 .result-blog {
-  height: 4.5vh;
+  height: 2vh;
   color: #c0c0c0;
 }
 .col-card:hover {
@@ -948,7 +948,7 @@ img.active-select-img {
 }
 .colors {
   border: 2px solid var(--color-white);
-  height: 6.5vh;
+  height: 52px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
